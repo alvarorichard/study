@@ -1,5 +1,6 @@
 section .data
-    msg db 'Meu Primeiro Progrma em Assembly!', 0xA
+    msg db 'Meu Primeiro Progrma em Assembly!', 0xA  0xD
+
     tam equ $- msg
 
 section .text
